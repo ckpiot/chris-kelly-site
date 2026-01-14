@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buy in North Alabama | Chris Kelly</title>
+  <meta name="description" content="Buyer guidance for Huntsville, Madison, Athens, Harvest and surrounding North Alabama areas." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="mark">CK</span>
+        <span class="name">Chris Kelly</span>
+        <span class="sub">North Alabama Real Estate</span>
+      </a>
+      <button class="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav id="menu" class="menu" aria-label="Primary">
+        <a href="buyers.html">Buy</a>
+        <a href="sellers.html">Sell</a>
+        <a href="relocation.html">Relocate</a>
+        <a href="investors.html">Invest</a>
+        <a href="index.html#idx">IDX Search</a>
+        <a class="btn small" href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container twoCol">
+      <div>
+        <p class="kicker">Buyer Guide</p>
+        <h1>Buy with confidence — and no surprises.</h1>
+        <p class="lead muted">
+          My job is to make the process clear: search strategy, offer terms, inspections, and a smooth path to closing.
+        </p>
+
+        <div class="panel">
+          <h2>What you get</h2>
+          <ul class="bullets muted">
+            <li>Neighborhood strategy based on commute, lifestyle, and budget</li>
+            <li>Offer planning: terms, contingencies, and negotiation approach</li>
+            <li>Inspection support + repair strategy</li>
+            <li>Appraisal guidance + lender coordination</li>
+            <li>Clear timeline and weekly status updates</li>
+          </ul>
+        </div>
+
+        <div class="panel" style="margin-top:16px;">
+          <h2>Fast start checklist</h2>
+          <ul class="bullets muted">
+            <li>Get pre-approved (or confirm cash strategy)</li>
+            <li>Define must-haves vs nice-to-haves</li>
+            <li>Choose top 3 target areas</li>
+            <li>Set your timeline and comfort level</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Request a buyer consult</h2>
+        <p class="muted">Use the main form on the homepage (fastest).</p>
+        <a class="btn full" href="index.html#contact">Start here</a>
+
+        <div class="disclosure">
+          Brokerage + license disclosures: TBD.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footGrid">
+      <div>
+        <div class="footBrand">Chris Kelly</div>
+        <div class="muted tiny">North Alabama Real Estate</div>
+      </div>
+      <div class="footLinks">
+        <a href="index.html">Home</a>
+        <a href="sellers.html">Sell</a>
+        <a href="relocation.html">Relocate</a>
+        <a href="home-valuation.html">Home Valuation</a>
+      </div>
+      <div class="muted tiny">© <span id="year"></span> Chris Kelly • Brokerage/license: TBD</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

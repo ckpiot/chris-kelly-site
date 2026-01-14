@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chris Kelly | North Alabama Real Estate</title>
+  <meta name="description" content="North Alabama real estate guidance for buyers, sellers, relocation, and investors. Calm, clear, and modern." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="mark">CK</span>
+        <span class="name">Chris Kelly</span>
+        <span class="sub">North Alabama Real Estate</span>
+      </a>
+
+      <button class="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+
+      <nav id="menu" class="menu" aria-label="Primary">
+        <a href="buyers.html">Buy</a>
+        <a href="sellers.html">Sell</a>
+        <a href="relocation.html">Relocate</a>
+        <a href="investors.html">Invest</a>
+        <a href="#idx">IDX Search</a>
+        <a class="btn small" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container heroGrid">
+        <div>
+          <p class="kicker">Calm • Clear • North Alabama</p>
+          <h1>Real estate, made simple — buying, selling, relocating, or investing.</h1>
+          <p class="lead">
+            I’m Chris Kelly. I help clients across North Alabama move with clarity, strong communication,
+            and clean execution — whether you’re purchasing your next home, listing strategically, relocating for work,
+            or building a rental portfolio.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn" href="#contact">Start Here</a>
+            <a class="btn ghost" href="#idx">Search Homes (IDX)</a>
+          </div>
+
+          <div class="disclosure">
+            <strong>Brokerage + license disclosure:</strong> TBD (add required brokerage name, office address, and license details when active).
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Quick Start</h2>
+          <p class="muted">Share your goal and timeline — I’ll reply with next steps.</p>
+
+          <!-- Replace with your Formspree endpoint OR use Netlify Forms -->
+          <form class="form" method="POST" action="https://formspree.io/f/yourFormId">
+            <label>
+              Name
+              <input name="name" required autocomplete="name" />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" required autocomplete="email" />
+            </label>
+            <label>
+              Phone (optional)
+              <input name="phone" type="tel" autocomplete="tel" />
+            </label>
+            <label>
+              I need help with…
+              <select name="goal" required>
+                <option value="" selected disabled>Select one</option>
+                <option>Buying</option>
+                <option>Selling</option>
+                <option>Relocation</option>
+                <option>Investor / Rental</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required placeholder="Areas, budget, timeline, must-haves…"></textarea>
+            </label>
+
+            <button class="btn full" type="submit">Request a Call</button>
+            <p class="tiny muted">By submitting, you agree to be contacted. Standard rates may apply.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Services</h2>
+          <p class="muted">Choose your path — I’ll build the plan around you.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Buy</h3>
+            <p class="muted">Neighborhood strategy, offers, inspections, closing coordination.</p>
+            <a class="btn small" href="buyers.html">Buyer guide</a>
+          </article>
+
+          <article class="card">
+            <h3>Sell</h3>
+            <p class="muted">Pricing, prep, marketing, net sheets, negotiation and close.</p>
+            <a class="btn small" href="sellers.html">Seller guide</a>
+          </article>
+
+          <article class="card">
+            <h3>Relocate / Invest</h3>
+            <p class="muted">Video walkthroughs, area comparisons, rental strategy support.</p>
+            <a class="btn small" href="relocation.html">Relocation</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="areas">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Featured areas</h2>
+          <p class="muted">Huntsville, Madison, Athens, Harvest — and surrounding communities.</p>
+        </div>
+
+        <div class="grid">
+          <div class="tile"><h3>Huntsville</h3><p class="muted">Tech growth, historic pockets, new construction.</p></div>
+          <div class="tile"><h3>Madison</h3><p class="muted">High demand, commuter convenience, schools.</p></div>
+          <div class="tile"><h3>Athens</h3><p class="muted">Value + space with I-565 access.</p></div>
+          <div class="tile"><h3>Harvest</h3><p class="muted">Suburban feel, newer subdivisions, room to breathe.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="idx">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>IDX Home Search</h2>
+          <p class="muted">
+            When you choose an IDX provider, they’ll give you a small embed snippet (iframe or script).
+            Paste it here and this page becomes your live MLS-powered home search.
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>IDX Embed Placeholder</h3>
+          <div class="idxEmbed">
+            <p class="muted">
+              Drop your IDX provider’s iframe/script snippet here.<br/>
+              <span class="tiny">When you pick a provider, paste the snippet into this box. I can also help you style it to match the site.</span>
+            </p>
+          </div>
+          <div class="disclosure">
+            <strong>Compliance note:</strong> MLS/IDX rules vary. Add required data disclaimers and brokerage/license info once active.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Contact</h2>
+          <p class="muted">Phone/email are TBD — use the Quick Start form above for now.</p>
+        </div>
+
+        <div class="contactGrid">
+          <div class="card"><h3>Phone</h3><p class="muted">TBD</p></div>
+          <div class="card"><h3>Email</h3><p class="muted">TBD</p></div>
+          <div class="card"><h3>Brokerage</h3><p class="muted">TBD</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footGrid">
+      <div>
+        <div class="footBrand">Chris Kelly</div>
+        <div class="muted tiny">North Alabama Real Estate</div>
+      </div>
+
+      <div class="footLinks">
+        <a href="buyers.html">Buy</a>
+        <a href="sellers.html">Sell</a>
+        <a href="relocation.html">Relocate</a>
+        <a href="investors.html">Invest</a>
+        <a href="home-valuation.html">Home Valuation</a>
+      </div>
+
+      <div class="muted tiny">
+        © <span id="year"></span> Chris Kelly. All rights reserved.<br/>
+        Equal Housing Opportunity (add logo/graphic later).<br/>
+        Brokerage + license disclosures: TBD.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
