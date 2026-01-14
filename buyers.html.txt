@@ -1,4 +1,5 @@
-<!doctype html>
+<!-- moved -->
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -89,3 +90,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
